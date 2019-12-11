@@ -6,6 +6,7 @@ See the [`pf` github repository][pf] for more details!
 
 [![npm version](https://img.shields.io/npm/v/fx.svg?color=orange)](https://www.npmjs.com/package/fx)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg?color=green)][license]
+[![jest status](https://github.com/Yord/pf-sample/workflows/unit%20tests/badge.svg?branch=master)][actions]
 
 ## Installation
 
@@ -33,7 +34,7 @@ For a much more detailed description, see the [`pf` repository][pf].
 
 ## License
 
-This project is under the [MIT][license] license.
+`@pf/sample` is [MIT licensed][license].
 
 [license]: https://github.com/Yord/pf-core/blob/master/LICENSE
 [teaser]: ./teaser.gif
