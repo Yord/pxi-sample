@@ -39,4 +39,4 @@ For a much more detailed description, see the [`pf` repository][pf].
 [license]: https://github.com/Yord/pf-core/blob/master/LICENSE
 [teaser]: ./teaser.gif
 [pf]: https://github.com/Yord/pf
-[actions]: https://github.com/Yord/pf-json/actions
+[actions]: https://github.com/Yord/pf-sample/actions
