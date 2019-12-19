@@ -1,19 +1,17 @@
-const {assert, integer, property, string} = require('fast-check')
+const {anything, assert, constant, property} = require('fast-check')
 const {func: lexer} = require('./sample')
 
 test('passes on data as one big token, ignoring lines completely', () => {
-  const argv      = {}
-  const lex       = lexer(argv)
-
-  const data      = string()
-  const prevLines = integer()
+  const argv      = anything().chain(verbose => constant({verbose}))
+  const data      = anything()
+  const prevLines = anything()
 
   assert(
-    property(data, prevLines, (data, prevLines) =>
+    property(argv, data, prevLines, (argv, data, prevLines) =>
       expect(
-        lex(data, prevLines)
+        lexer(argv)(data, prevLines)
       ).toStrictEqual(
-        {err: [], tokens: [data], lines: [], lastLine: prevLines, rest: ''}
+        {err: [], tokens: [], lines: [], lastLine: 0, rest: ''}
       )
     )
   )
