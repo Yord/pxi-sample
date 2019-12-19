@@ -1,25 +1,17 @@
-const {array, assert, integer, jsonObject, property} = require('fast-check')
+const {anything, assert, constant, property} = require('fast-check')
 const {func: marshaller} = require('./sample')
 
 test('returns input as toString without newlines', () => {
-  const argv    = {}
-  const marshal = marshaller(argv)
-
-  const jsons   = array(jsonObject())
+  const argv  = anything().chain(verbose => constant({verbose}))
+  const jsons = anything()
 
   assert(
-    property(jsons, jsons => {
-      const str = (
-        jsons
-        .map(json => json === null ? '' : json.toString())
-        .join('')
-      )
-
+    property(argv, jsons, (argv, jsons) =>
       expect(
-        marshal(jsons)
+        marshaller(argv)(jsons)
       ).toStrictEqual(
-        {err: [], str}
+        {err: [], str: ''}
       ) 
-    })
+    )
   )
 })
