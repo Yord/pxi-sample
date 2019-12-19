@@ -1,20 +1,18 @@
-const {array, assert, integer, jsonObject, property} = require('fast-check')
+const {anything, assert, property} = require('fast-check')
 const {func: applicator} = require('./sample')
 
 test('does not apply function, returns input unchanged as output', () => {
-  const fs        = undefined
-  const argv      = {}
-  const apply     = applicator(fs, argv)
-
-  const jsons     = array(jsonObject())
-  const lines     = integer()
+  const fs    = anything()
+  const argv  = anything().chain(verbose => constant({verbose}))
+  const jsons = anything()
+  const lines = anything()
 
   assert(
     property(jsons, lines, (jsons, lines) =>
       expect(
-        apply(jsons, lines)
+        applicator(fs, argv)(jsons, lines)
       ).toStrictEqual(
-        {err: [], jsons}
+        {err: [], jsons: []}
       )
     )
   )
