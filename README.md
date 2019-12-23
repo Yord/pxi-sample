@@ -4,9 +4,13 @@
 
 See the [`pf` github repository][pf] for more details!
 
+[![node version][node-shield]][node]
 [![npm version][npm-shield]][npm-package]
 [![license][license-shield]][license]
-[![unit tests status][unit-tests-shield]][actions]
+[![PRs Welcome][prs-shield]][pfx-how-to-contribute]
+[![linux unit tests status][linux-unit-tests-shield]][actions]
+[![macos unit tests status][macos-unit-tests-shield]][actions]
+[![windows unit tests status][windows-unit-tests-shield]][actions]
 
 ## Installation
 
@@ -42,5 +46,12 @@ For a much more detailed description, see the [`pf` repository][pf].
 [pf]: https://github.com/Yord/pf
 [actions]: https://github.com/Yord/pfx-sample/actions
 [npm-shield]: https://img.shields.io/npm/v/@pfx/sample.svg?color=orange
-[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?color=green
+[license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?color=yellow
 [unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/unit%20tests/badge.svg?branch=master
+[node-shield]: https://img.shields.io/node/v/@pfx/sample?color=red
+[node]: https://nodejs.org/
+[prs-shield]: https://img.shields.io/badge/PRs-welcome-green.svg
+[pfx-how-to-contribute]: https://github.com/Yord/pf
+[linux-unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/linux/badge.svg?branch=master
+[macos-unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/macos/badge.svg?branch=master
+[windows-unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/windows/badge.svg?branch=master
