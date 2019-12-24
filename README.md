@@ -14,8 +14,6 @@ See the [`pf` github repository][pf] for more details!
 
 ## Installation
 
-`pf` requires **node v8.3.0** or higher.
-
 Usually, `@pfx/sample` is installed in `~/.pfrc/` as follows:
 
 ```bash
