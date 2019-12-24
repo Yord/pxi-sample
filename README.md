@@ -14,8 +14,6 @@ See the [`pf` github repository][pf] for more details!
 
 ## Installation
 
-`pf` requires **node v8.3.0** or higher.
-
 Usually, `@pfx/sample` is installed in `~/.pfrc/` as follows:
 
 ```bash
@@ -36,6 +34,10 @@ module.exports = {
 
 For a much more detailed description, see the [`pf` repository][pf].
 
+## Reporting Issues
+
+Please report issues [at the `pf` repository][issues]!
+
 ## License
 
 `@pfx/sample` is [MIT licensed][license].
@@ -55,3 +57,4 @@ For a much more detailed description, see the [`pf` repository][pf].
 [linux-unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/linux/badge.svg?branch=master
 [macos-unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/macos/badge.svg?branch=master
 [windows-unit-tests-shield]: https://github.com/Yord/pfx-sample/workflows/windows/badge.svg?branch=master
+[issues]: https://github.com/Yord/pf/issues
