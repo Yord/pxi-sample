@@ -23,10 +23,10 @@ npm install @pfx/sample
 The plugin is included in `~/.pfrc/index.js` as follows:
 
 ```js
-const samplePlugin = require('@pfx/sample')
+const sample = require('@pfx/sample')
 
 module.exports = {
-  plugins:  [samplePlugin],
+  plugins:  [sample],
   context:  {},
   defaults: {}
 }
