@@ -34,6 +34,17 @@ module.exports = {
 
 For a much more detailed description, see the [`.pfrc` module documentation][pf-pfrc-module] in the [`pf` repository][pf].
 
+## Extensions
+
+This plugin comes with the following `pf` extensions:
+
+|                     | Description                                                                     |
+|---------------------|---------------------------------------------------------------------------------|
+| `sample` lexer      | A sample lexer showcasing the structure and contents of a `pf` lexer.           |
+| `sample` parser     | A sample parser showcasing the structure and contents of a `pf` parser.         |
+| `sample` applicator | A sample applicator showcasing the structure and contents of a `pf` applicator. |
+| `sample` marshaller | A sample marshaller showcasing the structure and contents of a `pf` marshaller. |
+
 ## Reporting Issues
 
 Please report issues [at the `pf` repository][issues]!
