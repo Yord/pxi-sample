@@ -1,8 +1,8 @@
-![@pfx/sample teaser][teaser]
+![pxi-sample teaser][teaser]
 
-`@pfx/sample` is a sample plugin for `pf`, the fast and extensible command-line data (e.g. JSON) processor and transformer.
+🧚`pxi-sample` is a sample plugin for `pxi` (pixie), the small, fast and magic command-line data processor.
 
-See the [`pf` github repository][pf] for more details!
+See the [`pxi` github repository][pxi] for more details!
 
 [![node version][shield-node]][node]
 [![npm version][shield-npm]][npm-package]
@@ -14,16 +14,16 @@ See the [`pf` github repository][pf] for more details!
 
 ## Installation
 
-`@pfx/sample` is installed in `~/.pfrc/` as follows:
+`pxi-sample` is installed in `~/.pxi/` as follows:
 
 ```bash
-npm install @pfx/sample
+npm install pxi-sample
 ```
 
-The plugin is included in `~/.pfrc/index.js` as follows:
+The plugin is included in `~/.pxi/index.js` as follows:
 
 ```js
-const sample = require('@pfx/sample')
+const sample = require('pxi-sample')
 
 module.exports = {
   plugins:  [sample],
@@ -32,18 +32,18 @@ module.exports = {
 }
 ```
 
-For a much more detailed description, see the [`.pfrc` module documentation][pfrc-module].
+For a much more detailed description, see the [`.pxi` module documentation][pxi-module].
 
 ## Extensions
 
-This plugin comes with the following `pf` extensions:
+This plugin comes with the following `pxi` extensions:
 
-|                     | Description                                                                     |
-|---------------------|---------------------------------------------------------------------------------|
-| `sample` lexer      | A sample lexer showcasing the structure and contents of a `pf` lexer.           |
-| `sample` parser     | A sample parser showcasing the structure and contents of a `pf` parser.         |
-| `sample` applicator | A sample applicator showcasing the structure and contents of a `pf` applicator. |
-| `sample` marshaller | A sample marshaller showcasing the structure and contents of a `pf` marshaller. |
+|                     | Description                                                                      |
+|---------------------|----------------------------------------------------------------------------------|
+| `sample` lexer      | A sample lexer showcasing the structure and contents of a `pxi` lexer.           |
+| `sample` parser     | A sample parser showcasing the structure and contents of a `pxi` parser.         |
+| `sample` applicator | A sample applicator showcasing the structure and contents of a `pxi` applicator. |
+| `sample` marshaller | A sample marshaller showcasing the structure and contents of a `pxi` marshaller. |
 
 ## Reporting Issues
 
@@ -51,21 +51,21 @@ Please report issues [in the tracker][issues]!
 
 ## License
 
-`@pfx/sample` is [MIT licensed][license].
+`pxi-sample` is [MIT licensed][license].
 
-[actions]: https://github.com/Yord/pfx-sample/actions
-[contribute]: https://github.com/Yord/pf
-[issues]: https://github.com/Yord/pf/issues
-[license]: https://github.com/Yord/pfx-core/blob/master/LICENSE
+[actions]: https://github.com/Yord/pxi-sample/actions
+[contribute]: https://github.com/Yord/pxi
+[issues]: https://github.com/Yord/pxi/issues
+[license]: https://github.com/Yord/pxi-core/blob/master/LICENSE
 [node]: https://nodejs.org/
-[npm-package]: https://www.npmjs.com/package/@pfx/sample
-[pf]: https://github.com/Yord/pf
-[pfrc-module]: https://github.com/Yord/pf#pfrc-module
+[npm-package]: https://www.npmjs.com/package/pxi-sample
+[pxi]: https://github.com/Yord/pxi
+[pxi-module]: https://github.com/Yord/pxi#pxi-module
 [shield-license]: https://img.shields.io/badge/license-MIT-blue.svg?color=yellow&labelColor=313A42
-[shield-node]: https://img.shields.io/node/v/@pfx/sample?color=red&labelColor=313A42
-[shield-npm]: https://img.shields.io/npm/v/@pfx/sample.svg?color=orange&labelColor=313A42
+[shield-node]: https://img.shields.io/node/v/pxi-sample?color=red&labelColor=313A42
+[shield-npm]: https://img.shields.io/npm/v/pxi-sample.svg?color=orange&labelColor=313A42
 [shield-prs]: https://img.shields.io/badge/PRs-welcome-green.svg?labelColor=313A42
-[shield-unit-tests-linux]: https://github.com/Yord/pfx-sample/workflows/linux/badge.svg?branch=master
-[shield-unit-tests-macos]: https://github.com/Yord/pfx-sample/workflows/macos/badge.svg?branch=master
-[shield-unit-tests-windows]: https://github.com/Yord/pfx-sample/workflows/windows/badge.svg?branch=master
+[shield-unit-tests-linux]: https://github.com/Yord/pxi-sample/workflows/linux/badge.svg?branch=master
+[shield-unit-tests-macos]: https://github.com/Yord/pxi-sample/workflows/macos/badge.svg?branch=master
+[shield-unit-tests-windows]: https://github.com/Yord/pxi-sample/workflows/windows/badge.svg?branch=master
 [teaser]: ./teaser.gif

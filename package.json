@@ -1,18 +1,18 @@
 {
-  "name": "@pfx/sample",
+  "name": "pxi-sample",
   "version": "0.6.4",
-  "description": "Sample plugin for pf, the fast and extensible command-line data (e.g. JSON) processor and transformer",
+  "description": "Sample plugin for pxi (pixie), the small, fast and magic command-line data processor",
   "keywords": [
-    "pf",
-    "parser-functions",
+    "pxi",
+    "pixie",
     "json",
-    "lexer",
-    "parser",
-    "marshaller"
+    "csv",
+    "serializer",
+    "parser"
   ],
-  "homepage": "https://github.com/Yord/pfx-sample",
+  "homepage": "https://github.com/Yord/pxi-sample",
   "bugs": {
-    "url": "https://github.com/Yord/pf/issues"
+    "url": "https://github.com/Yord/pxi/issues"
   },
   "license": "MIT",
   "author": "Philipp Wille <philipp.y.wille@gmail.com> (https://github.com/Yord)",
@@ -22,7 +22,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yord/pfx-sample.git"
+    "url": "https://github.com/Yord/pxi-sample.git"
   },
   "scripts": {
     "start": "./index.js",
