@@ -5,8 +5,8 @@ module.exports = {
   deserializers: [
     require('./src/deserializers/sample')
   ],
-  applicators:   [
-    require('./src/applicators/sample')
+  appliers:      [
+    require('./src/appliers/sample')
   ],
   serializers:   [
     require('./src/serializers/sample')

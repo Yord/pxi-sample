@@ -1,6 +1,6 @@
 module.exports = {
   name: 'sample',
-  desc: 'is a sample applicator.',
+  desc: 'is a sample applier.',
   func: (functions, {verbose}) => (jsons, lines) => (
     // * Turn jsons into other jsons by applying all functions
     // * Collect error reports: {msg: String, line: Number, info: Json}

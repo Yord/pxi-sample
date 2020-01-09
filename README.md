@@ -42,7 +42,7 @@ This plugin comes with the following `pxi` extensions:
 |-----------------------|--------------------------------------------------------------------------------------|
 | `sample` chunker      | A sample chunker showcasing the structure and contents of a `pxi` chunker.           |
 | `sample` deserializer | A sample deserializer showcasing the structure and contents of a `pxi` deserializer. |
-| `sample` applicator   | A sample applicator showcasing the structure and contents of a `pxi` applicator.     |
+| `sample` applier      | A sample applier showcasing the structure and contents of a `pxi` applier.           |
 | `sample` serializer   | A sample serializer showcasing the structure and contents of a `pxi` serializer.     |
 
 ## Reporting Issues
