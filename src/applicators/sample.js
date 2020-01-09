@@ -6,7 +6,7 @@ module.exports = {
     // * Collect error reports: {msg: String, line: Number, info: Json}
     //   If verbose > 0, include line in error reports
     //   If verbose > 1, include info in error reports
-    // * Return errors and marshalled string
+    // * Return errors and serialized string
     {err: [], jsons: []}
   )
 }

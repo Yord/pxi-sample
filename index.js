@@ -8,7 +8,7 @@ module.exports = {
   applicators:   [
     require('./src/applicators/sample')
   ],
-  marshallers:   [
-    require('./src/marshallers/sample')
+  serializers:   [
+    require('./src/serializers/sample')
   ]
 }
