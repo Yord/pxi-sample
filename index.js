@@ -1,14 +1,14 @@
 module.exports = {
-  chunkers:    [
+  chunkers:      [
     require('./src/chunkers/sample')
   ],
-  parsers:     [
-    require('./src/parsers/sample')
+  deserializers: [
+    require('./src/deserializers/sample')
   ],
-  applicators: [
+  applicators:   [
     require('./src/applicators/sample')
   ],
-  marshallers: [
+  marshallers:   [
     require('./src/marshallers/sample')
   ]
 }

@@ -38,12 +38,12 @@ For a much more detailed description, see the [`.pxi` module documentation][pxi-
 
 This plugin comes with the following `pxi` extensions:
 
-|                     | Description                                                                      |
-|---------------------|----------------------------------------------------------------------------------|
-| `sample` chunker    | A sample chunker showcasing the structure and contents of a `pxi` chunker.       |
-| `sample` parser     | A sample parser showcasing the structure and contents of a `pxi` parser.         |
-| `sample` applicator | A sample applicator showcasing the structure and contents of a `pxi` applicator. |
-| `sample` marshaller | A sample marshaller showcasing the structure and contents of a `pxi` marshaller. |
+|                       | Description                                                                          |
+|-----------------------|--------------------------------------------------------------------------------------|
+| `sample` chunker      | A sample chunker showcasing the structure and contents of a `pxi` chunker.           |
+| `sample` deserializer | A sample deserializer showcasing the structure and contents of a `pxi` deserializer. |
+| `sample` applicator   | A sample applicator showcasing the structure and contents of a `pxi` applicator.     |
+| `sample` marshaller   | A sample marshaller showcasing the structure and contents of a `pxi` marshaller.     |
 
 ## Reporting Issues
 
