@@ -1,6 +1,6 @@
 {
   "name": "pxi-sample",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Sample plugin for pxi (pixie), the small, fast and magical command-line data processor",
   "keywords": [
     "pxi",
