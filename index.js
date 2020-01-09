@@ -1,8 +1,8 @@
 module.exports = {
-  lexers: [
-    require('./src/lexers/sample')
+  chunkers:    [
+    require('./src/chunkers/sample')
   ],
-  parsers: [
+  parsers:     [
     require('./src/parsers/sample')
   ],
   applicators: [
