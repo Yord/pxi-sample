@@ -1,5 +1,5 @@
 const {anything, assert, constant, property} = require('fast-check')
-const {func: marshaller} = require('./sample')
+const {func: serializer} = require('./sample')
 
 test('returns input as toString without newlines', () => {
   const argv  = anything().chain(verbose => constant({verbose}))
@@ -8,7 +8,7 @@ test('returns input as toString without newlines', () => {
   assert(
     property(argv, jsons, (argv, jsons) =>
       expect(
-        marshaller(argv)(jsons)
+        serializer(argv)(jsons)
       ).toStrictEqual(
         {err: [], str: ''}
       ) 

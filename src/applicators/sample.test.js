@@ -1,5 +1,5 @@
 const {anything, assert, property} = require('fast-check')
-const {func: applicator} = require('./sample')
+const {func: applier} = require('./sample')
 
 test('does not apply function, returns input unchanged as output', () => {
   const fs    = anything()
@@ -10,7 +10,7 @@ test('does not apply function, returns input unchanged as output', () => {
   assert(
     property(jsons, lines, (jsons, lines) =>
       expect(
-        applicator(fs, argv)(jsons, lines)
+        applier(fs, argv)(jsons, lines)
       ).toStrictEqual(
         {err: [], jsons: []}
       )

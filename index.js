@@ -1,14 +1,14 @@
 module.exports = {
-  lexers: [
-    require('./src/lexers/sample')
+  chunkers:      [
+    require('./src/chunkers/sample')
   ],
-  parsers: [
-    require('./src/parsers/sample')
+  deserializers: [
+    require('./src/deserializers/sample')
   ],
-  applicators: [
-    require('./src/applicators/sample')
+  appliers:      [
+    require('./src/appliers/sample')
   ],
-  marshallers: [
-    require('./src/marshallers/sample')
+  serializers:   [
+    require('./src/serializers/sample')
   ]
 }
