@@ -1,6 +1,6 @@
 ![pxi-sample teaser][teaser]
 
-🧚`pxi-sample` is a sample plugin for `pxi` (pixie), the small, fast and magical command-line data processor.
+🧚`pxi-sample` is a sample plugin for `pxi` (pixie), the small, fast, and magical command-line data processor.
 
 See the [`pxi` github repository][pxi] for more details!
 
