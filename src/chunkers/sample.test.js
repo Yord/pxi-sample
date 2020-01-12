@@ -9,7 +9,7 @@ test('passes on data as one big chunk, ignoring lines completely', () => {
   assert(
     property(argv, data, prevLines, (argv, data, prevLines) =>
       expect(
-        chunker(argv)(data, prevLines)
+        chunker(argv)(data, prevLines, false)
       ).toStrictEqual(
         {err: [], chunks: [], lines: [], lastLine: 0, rest: ''}
       )
