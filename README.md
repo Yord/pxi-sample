@@ -1,6 +1,6 @@
 ![pxi-sample teaser][teaser]
 
-🧚`pxi-sample` is a sample plugin for `pxi` (pixie), the small, fast and magical command-line data processor.
+🧚`pxi-sample` is a sample plugin for `pxi` (pixie), the small, fast, and magical command-line data processor.
 
 See the [`pxi` github repository][pxi] for more details!
 
@@ -68,4 +68,4 @@ Please report issues [in the tracker][issues]!
 [shield-unit-tests-linux]: https://github.com/Yord/pxi-sample/workflows/linux/badge.svg?branch=master
 [shield-unit-tests-macos]: https://github.com/Yord/pxi-sample/workflows/macos/badge.svg?branch=master
 [shield-unit-tests-windows]: https://github.com/Yord/pxi-sample/workflows/windows/badge.svg?branch=master
-[teaser]: https://github.com/Yord/pxi-sample/blob/master/teaser.gif?raw=true
+[teaser]: https://github.com/Yord/pxi/blob/master/teaser.gif?raw=true
